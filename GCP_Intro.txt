@@ -1,0 +1,42 @@
+Overview of GCP services:
+
+1. Compute services
+	Compute Engine (IaaS, provides VMs)
+	App Engine (PaaS)
+	Kubernetes Engine
+
+2. Storage & Database Services
+	Database services
+		Cloud Storage, Cloud SQL, Cloud Spanner, Clouse BigTable (NoSQL), Cloud Firestore, Cloud  Datastore
+	
+	Integrating Services
+		BigQuery, DataProc, DataFlow, Cloud PubSub
+		
+3. Networking Services
+
+4. Identity and Security Services
+
+***Big Data Services***
+
+BigQuery --> Data warehouse to store and query Big Data using SQL
+
+Cloud Dataflow --> Data processing service for Batch and stream Big data processing. Based on Apache Beam
+
+Data Proc --> Same as Datafloe, but for opensource such as Hadoop, Spark
+
+***BIG DATA ECOSYSTEM***
+
+Input data  (Data is available on GCP)
+	Compute Storage, Cloud SQL, Cloud Spanner, Cloud Datastore, Cloud BigTable
+
+Igestion layer (Data is available somewhere else and we are fetching data)
+	Cloud PubSub, Data Transfer
+	
+Processing Layer
+	Cloud Dataflow, Cloud Dataproc
+	
+Storage Layer (to Store processed data in above stage)
+	BigQuery, Cloud Storage, Cloud BigTable
+	
+Visualization
+	
